@@ -48,6 +48,118 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Your CSS Below **/
 
+p {
+  font-size: var(--font-paragraph);
+  font-family: var(--fs-base);
+  color: var(--clr-stone600);
+  font-weight: var(--fw-regular);
+
+}
+h1 {
+  font-family: var(--fs-accent);
+  font-size: var(--font-header);
+  font-weight: var(--fw-regular);
+  color: var(--clr-stone900);
+}
+h2{
+  font-family: var(--fs-accent);
+  font-size: var(--font-sub-header);
+  color: var(--clr-brown800);
+  font-weight: var(--fw-regular);
+  margin: 10px 0;
+}
+h3 {
+  font-family: var(--fs-base);
+  font-weight: var(--fw-bold) ;
+  color: var(--clr-rose800);
+}
+
+body {
+  background-color: var(--clr-stone100);
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  
+  
+}
+
+.prep {
+  background-color: var(--clr-rose50);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.content {
+  width: 800px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 3%;
+  margin: 0 auto
+}
+
+.bolded{
+  font-weight:var(--fw-black);
+}
+
+
+
+
+ol li {
+  font-family: var(--fs-base);
+  font-size: var(--font-paragraph);
+  font-weight: var(--fw-black);
+  color:var(--clr-stone600);
+  margin:10px 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+table tr {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+  color: var(--clr-stone150);
+  margin: 10px 0;
+}
+
+tr {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+table td {
+  padding: 15px;
+}
+
+.boldednutrient {
+  font-weight: var(--fw-black);
+  color: var(--clr-brown800);
+}
+
+img {
+  border-radius: 30px;
+  padding: 2%;
+}
+
+.border {
+  border-bottom: 1px solid;
+  color: var(--clr-stone150);
+}
+
+.section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
